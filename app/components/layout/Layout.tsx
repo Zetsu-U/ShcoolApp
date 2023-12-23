@@ -17,8 +17,9 @@ const Layout: FC<PropsWithChildren<ILayout>> = ({children,title,className, ...re
                 style={{
                     paddingTop:Platform.OS === 'ios' ? top / 5 : top * 0.9
             }}>
-                {title && (                                                                                             
-                    <Text className={`text-white text-3xl font-bold px-4 py-2 mb-4 bg-blue shadow-2xl rounded-b-xl`}>
+    
+                {title && (
+                    <Text className="text-black text-2xl font-bold px-6 py-2 bg-white shadow-2xl rounded-b-xl">
                         {title}
                     </Text>
                 )}

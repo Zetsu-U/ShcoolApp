@@ -33,8 +33,7 @@ const Home = () => {
     return (  
         <Layout title='Furmulas App'>
             <View className='bg-white rounded-t-2xl' style = {{flex: 1}}>
-                <ScrollView>
-
+                <ScrollView className={`px-4`}>
                     {routeIndex > 0 && (
                         <BackButton onPress={onBackPress}>
                             Назад
@@ -50,9 +49,7 @@ const Home = () => {
                     ))}
                 </ScrollView>
             </View>
-        </Layout>
-                      
-                    
+        </Layout>                       
     );
 }
 
