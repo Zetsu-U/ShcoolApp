@@ -11,20 +11,21 @@ const Layout: FC<PropsWithChildren<ILayout>> = ({children,title,className, ...re
 
     return (  
         <>
-            <SafeAreaView {...rest} className={cn('bg-grey-20', className)}
-            style={{
-                paddingTop:Platform.OS === 'ios' ? top / 5 : top * 1.1
+            <SafeAreaView 
+                {...rest} 
+                className={cn('bg-blue', className)}
+                style={{
+                    paddingTop:Platform.OS === 'ios' ? top / 5 : top * 0.9
             }}>
-            
-                <Text className="">Приложение для формул</Text>
-            </SafeAreaView>
-
-            <View className="flex-1">
+    
                 {title && (
                     <Text className="text-black text-2xl font-bold px-6 py-2 bg-white shadow-2xl rounded-b-xl">
                         {title}
                     </Text>
                 )}
+            </SafeAreaView>
+
+            <View className="flex-1 bg-blue">
                 {children}
             </View>
         </>

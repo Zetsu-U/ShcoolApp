@@ -18,40 +18,38 @@ const Home = () => {
     const [routeIndex, setRouteIndex] = useState(0)
 
     const onChapterPress = (chapter: IChapterProps) => {
-            if (chapter. chapters) {
-                setCurrentRoute(chapter.chapters)
-                setRouteIndex(prev => prev + 1)
-                //Если у нас есть другие чаптеры, то мы из каррентроут подгружаем имеющиеся чаптеры, тоесть меняем состояние роута
-            }
+        if (chapter. chapters) {
+            setCurrentRoute(chapter.chapters)
+            setRouteIndex(prev => prev + 1)
+        }
     }
 
-
+    const onBackPress = () => {
+        
+    }
     //const navigation = useRootNavigation()
 
 
     return (  
-        <Layout>
-            <View style = {{flex: 1, backgroundColor: '#001998'}}>
-                <ScrollView className="px-4">
-
+        <Layout title='Furmulas App'>
+            <View className='bg-white rounded-t-2xl' style = {{flex: 1}}>
+                <ScrollView className={`px-4`}>
                     {routeIndex > 0 && (
-                        <BackButton>
+                        <BackButton onPress={onBackPress}>
                             Назад
                         </BackButton>
                     )}
 
                 {currentRoute.map((chapter, index) => (
-                <Button
-                    onPress={() => onChapterPress(chapter)}
-                    key={`chapter-item${index}`}>
-                        <ChapterItem color={""} isLarge={true} {...chapter} />
-                </Button>
-            ))}
+                        <Button
+                            onPress={() => onChapterPress(chapter)}
+                            key={`chapter-item${index}`}>
+                                <ChapterItem color={""} isLarge={true} {...chapter} />
+                        </Button>
+                    ))}
                 </ScrollView>
             </View>
-        </Layout>
-                      
-                    
+        </Layout>                       
     );
 }
 
