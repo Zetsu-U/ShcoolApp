@@ -31,8 +31,8 @@ const Home = () => {
 
     return (  
         <Layout>
-            <View style = {{flex: 1}}>
-                <ScrollView>
+            <View style = {{flex: 1, backgroundColor: '#001998'}}>
+                <ScrollView className="px-4">
 
                     {routeIndex > 0 && (
                         <BackButton>

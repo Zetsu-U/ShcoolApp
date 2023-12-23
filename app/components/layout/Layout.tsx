@@ -16,7 +16,7 @@ const Layout: FC<PropsWithChildren<ILayout>> = ({children,title,className, ...re
                 paddingTop:Platform.OS === 'ios' ? top / 5 : top * 1.1
             }}>
             
-                <Text>Приложение для формул</Text>
+                <Text className="">Приложение для формул</Text>
             </SafeAreaView>
 
             <View className="flex-1">
