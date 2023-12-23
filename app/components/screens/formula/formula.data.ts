@@ -3,7 +3,7 @@ import { IForumulaProps } from "./formula-item/formula-item.inteface";
 export const mechanicsFormulaData: IForumulaProps[] = [
     {
         title: 'Скорость тела',
-        image: require('../../../../assets/physics/elc_2.png'),
+        image: require('../../../../assets/physics/speed.png'),
         properties: [ 
             'v-Скорость тела',
             'S-Путь, пройденный телом',
@@ -14,7 +14,7 @@ export const mechanicsFormulaData: IForumulaProps[] = [
 
     {
         title: 'Ускорение тела',
-        image: require('../../../../assets/physics/elc_2.png'),
+        image: require('../../../../assets/physics/acceleration.png'),
         properties: [ 
             'a — ускорение',
             'v1 — скорость тела в момент времени t1',
