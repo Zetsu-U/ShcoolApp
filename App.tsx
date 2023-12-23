@@ -7,7 +7,7 @@ export default function App() {
 
 
   return(
-    <SafeAreaProvider style= {{flex: 1}}>
+    <SafeAreaProvider className='bg-blue' style= {{flex: 1}}>
       <Navigation />
     </SafeAreaProvider>
   );
