@@ -58,7 +58,7 @@ export const mechanicsFormulaData: IForumulaProps[] = [
     }
 ]
 
-export const opticsFormulaData: IForumulaItem[] = [
+export const opticsFormulaData: IForumulaProps[] = [
     {
         title: 'Поток излучения',
         image: require('../../../../assets/physics/elc_2.png'),
@@ -115,7 +115,7 @@ export const opticsFormulaData: IForumulaItem[] = [
     }
 ]
 
-export const molecularFormulaData: IForumulaItem[] = [
+export const molecularFormulaData: IForumulaProps[] = [
     {
         title: 'Количество вещества',
         image: require('../../../../assets/physics/elc_2.png'),
@@ -173,7 +173,7 @@ export const molecularFormulaData: IForumulaItem[] = [
     }
 ]
 
-export const electricityFormulaData: IForumulaItem[] = [
+export const electricityFormulaData: IForumulaProps[] = [
     {
         title: 'Емкость плоского кондесатора',
         image: require('../../../../assets/physics/elc_2.png'),
@@ -236,7 +236,7 @@ export const electricityFormulaData: IForumulaItem[] = [
 
 
 
-export const shortformulasFormulaData: IForumulaItem [] = [
+export const shortformulasFormulaData: IForumulaProps[] = [
     {
         title: 'Формулы сокращенного умножения',
         image: require('../../../../assets/physics/elc_2.png'),
@@ -244,7 +244,7 @@ export const shortformulasFormulaData: IForumulaItem [] = [
     }
 ]
 
-export const stepeniFormulaData: IForumulaItem [] = [
+export const stepeniFormulaData: IForumulaProps[] = [
     {
         title: 'Основные свойства степеней',
         image: require('../../../../assets/physics/elc_2.png'),
@@ -252,7 +252,7 @@ export const stepeniFormulaData: IForumulaItem [] = [
     }
 ]
 
-export const korniFormulaData: IForumulaItem [] = [
+export const korniFormulaData: IForumulaProps[] = [
     {
         title: 'Основные свойства математических корней',
         image: require('../../../../assets/physics/elc_2.png'),
@@ -260,7 +260,7 @@ export const korniFormulaData: IForumulaItem [] = [
     }
 ]
 
-export const logsFormulaData: IForumulaItem [] = [
+export const logsFormulaData: IForumulaProps[] = [
     {
         title: 'Свойства логарифмов',
         image: require('../../../../assets/physics/elc_2.png'),
@@ -268,7 +268,7 @@ export const logsFormulaData: IForumulaItem [] = [
     }
 ]
 
-export const trigonometryFormulaData: IForumulaItem [] = [
+export const trigonometryFormulaData: IForumulaProps[] = [
     {
         title: 'Тригонометрия',
         image: require('../../../../assets/physics/elc_2.png'),

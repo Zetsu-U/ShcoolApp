@@ -48,7 +48,7 @@ const Home = () => {
                         <Button
                             onPress={() => onChapterPress(chapter)}
                             key={`chapter-item${index}`}>
-                                <ChapterItem color={""} isLarge={true} {...chapter} />
+                                <ChapterItem color={index % 2 === 0 ? "#fbe6bb" : "#f1d3d0"} isLarge={routeIndex === 0} {...chapter} />
                         </Button>
                     ))}
                 </ScrollView>
