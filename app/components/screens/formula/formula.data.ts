@@ -1,6 +1,6 @@
-import { IForumulaItem } from "./formula-item/formula-item.inteface";
+import { IForumulaProps } from "./formula-item/formula-item.inteface";
 
-export const mechanicsFormulaData: IForumulaItem[] = [
+export const mechanicsFormulaData: IForumulaProps[] = [
     {
         title: 'Скорость тела',
         image: 'Скорость.JPG',
