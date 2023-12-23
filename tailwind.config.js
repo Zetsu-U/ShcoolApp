@@ -11,7 +11,8 @@ module.exports = {
               gray: '#58585C',
               yellow: '#FFDC38',
               green: '#5FA957',
-              danger: '#E4392D'
+              danger: '#E4392D',
+              warm_y: '#FBE6BB'
           },
           boxShadow: {
               bottomMenu: '0px -10px 30px rgba(0, 0, 0, 0.08)'

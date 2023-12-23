@@ -31,7 +31,7 @@ const Home = () => {
 
 
     return (  
-        <Layout title='Furmulas App'>
+        <Layout title='Приложение с формулами'>
             <View className='bg-white rounded-t-2xl' style = {{flex: 1}}>
                 <ScrollView className={`px-4`}>
                     {routeIndex > 0 && (

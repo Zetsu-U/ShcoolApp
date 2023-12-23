@@ -3,7 +3,7 @@ import { IForumulaItem } from "./formula-item/formula-item.inteface";
 export const mechanicsFormulaData: IForumulaItem[] = [
     {
         title: 'Скорость тела',
-        image: 'Скорость.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'v-Скорость тела',
             'S-Путь, пройденный телом',
@@ -14,7 +14,7 @@ export const mechanicsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Ускорение тела',
-        image: 'Ускорение.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'a — ускорение',
             'v1 — скорость тела в момент времени t1',
@@ -26,7 +26,7 @@ export const mechanicsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Скорость равномерно-ускоренного движения',
-        image: 'СрСкорость.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'v — скорость',
             'v0 — скорость тела в начальный момент времени',
@@ -38,7 +38,7 @@ export const mechanicsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Центростремительное ускорение',
-        image: 'Центростремительное.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'a — центростремительное ускорение',
             'v — скорость',
@@ -49,7 +49,7 @@ export const mechanicsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Второй закон Ньютона',
-        image: 'Ньютон.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'F — равнодействующая всех сил, действующих на тело',
             'm — масса тела',
@@ -61,7 +61,7 @@ export const mechanicsFormulaData: IForumulaItem[] = [
 export const opticsFormulaData: IForumulaItem[] = [
     {
         title: 'Поток излучения',
-        image: 'Поток_излучения.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'Φ — поток излучения',
             'W — энергия излучения',
@@ -72,7 +72,7 @@ export const opticsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Сила света',
-        image: 'Сила_света.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'I — сила света',
             'Φ — поток излучения',
@@ -83,7 +83,7 @@ export const opticsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Освещенность',
-        image: 'Освещённость.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'E — освещенность',
             'Φ — поток излучения',
@@ -94,7 +94,7 @@ export const opticsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Относительный показатель преломления',
-        image: 'Относительное_преломление.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'n — относительный показатель преломления для граничащих сред',
             'n2 — абсолютный показатель преломления для второй среды',
@@ -105,7 +105,7 @@ export const opticsFormulaData: IForumulaItem[] = [
 
     {
         title: 'Закон преломления света',
-        image: 'Закон_преломления.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'i — угол отражения',
             'r — угол преломления',
@@ -118,7 +118,7 @@ export const opticsFormulaData: IForumulaItem[] = [
 export const molecularFormulaData: IForumulaItem[] = [
     {
         title: 'Количество вещества',
-        image: 'Количество_вещества.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'm — масса',
             'μ — молярная масса вещества',
@@ -130,7 +130,7 @@ export const molecularFormulaData: IForumulaItem[] = [
 
     {
         title: 'Давление идеального газа',
-        image: 'Давление_газа_идеал.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'n — концентрация молекул',
             'k — постоянная Больцмана',
@@ -141,7 +141,7 @@ export const molecularFormulaData: IForumulaItem[] = [
 
     {
         title: 'Первый закон термодинамики',
-        image: 'Закон_термодинамики.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'ΔQ — количество подведенной теплоты',
             'ΔA — работа, совершаемая веществом',
@@ -152,7 +152,7 @@ export const molecularFormulaData: IForumulaItem[] = [
 
     {
         title: 'Теплоемкость идеального газа',
-        image: 'Теплоёмкость.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'ΔQ — количество переданной системе теплоты на участке процесса',
             'ΔT — изменение температуры на этом участке процесса',
@@ -162,7 +162,7 @@ export const molecularFormulaData: IForumulaItem[] = [
 
     {
         title: 'Средняя квадратичная скорость молекул идеального газа',
-        image: 'Скорость_молекул.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'k = 1,38·10**-23 Дж/К — постоянная Больцмана',
             'R = kNA = 8,31 Дж/(моль·К) — универсальная газовая постоянная',
@@ -176,7 +176,7 @@ export const molecularFormulaData: IForumulaItem[] = [
 export const electricityFormulaData: IForumulaItem[] = [
     {
         title: 'Емкость плоского кондесатора',
-        image: 'Электроёмкость.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'C — электроёмкость',
             'q — заряд конденсатора',
@@ -187,7 +187,7 @@ export const electricityFormulaData: IForumulaItem[] = [
 
     {
         title: 'Закон Ома для участка однородной цепи',
-        image: 'Закон_Ома_1.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'I — сила тока',
             'U — напряжение на концах участка',
@@ -198,7 +198,7 @@ export const electricityFormulaData: IForumulaItem[] = [
 
     {
         title: 'Закон Ома для замкнутой цепи c источником тока',
-        image: 'Закон_Ома_2.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'E — ЭДС (электродвижущая сила)',
             'r — внутреннее сопротивление источника ЭДС',
@@ -210,7 +210,7 @@ export const electricityFormulaData: IForumulaItem[] = [
 
     {
         title: 'Работа постоянного тока',
-        image: 'Работа_тока.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'A - работа',
             'U — напряжение на концах участка цепи',
@@ -222,7 +222,7 @@ export const electricityFormulaData: IForumulaItem[] = [
 
     {
         title: 'Закон Джоуля-Ленца',
-        image: 'Закон_Ленца.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         properties: [ 
             'Q — теплота',
             'R — сопротивление проводника',
@@ -239,7 +239,7 @@ export const electricityFormulaData: IForumulaItem[] = [
 export const shortformulasFormulaData: IForumulaItem [] = [
     {
         title: 'Формулы сокращенного умножения',
-        image: 'Закон_Ленца.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         
     }
 ]
@@ -247,7 +247,7 @@ export const shortformulasFormulaData: IForumulaItem [] = [
 export const stepeniFormulaData: IForumulaItem [] = [
     {
         title: 'Основные свойства степеней',
-        image: 'Закон_Ленца.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         
     }
 ]
@@ -255,7 +255,7 @@ export const stepeniFormulaData: IForumulaItem [] = [
 export const korniFormulaData: IForumulaItem [] = [
     {
         title: 'Основные свойства математических корней',
-        image: 'Закон_Ленца.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         
     }
 ]
@@ -263,7 +263,7 @@ export const korniFormulaData: IForumulaItem [] = [
 export const logsFormulaData: IForumulaItem [] = [
     {
         title: 'Свойства логарифмов',
-        image: 'Закон_Ленца.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         
     }
 ]
@@ -271,7 +271,7 @@ export const logsFormulaData: IForumulaItem [] = [
 export const trigonometryFormulaData: IForumulaItem [] = [
     {
         title: 'Тригонометрия',
-        image: 'Закон_Ленца.JPG',
+        image: require('../../../../assets/physics/elc_2.png'),
         
     }
 ]
