@@ -14,11 +14,11 @@ const BackButton: FC<PropsWithChildren<IButton>> = ({children, className, ...res
         {...rest}
         style={{maxWidth: width / 1.04}}
         className={cn('w-fit my-2', className)}>
-            <View className={`h-fit flex flex-row justify-start iotems-center`}>
-            <Ionicons name = 'chevron-back' size={24} color='black'/>
-            <Text className={`text-black text-xl font-medium mb-0.5 mx-1`}>
-                {children}
-            </Text>
+            <View className={`h-fit flex flex-row justify-start items-center`}>
+                <Ionicons name = 'chevron-back' size={24} color='black'/>
+                <Text className={`text-black text-xl font-medium mb-0.5 mx-1`}>
+                    {children}
+                </Text>
             </View>
         </Button>
     )
