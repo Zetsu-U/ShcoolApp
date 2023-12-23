@@ -19,7 +19,7 @@ const Layout: FC<PropsWithChildren<ILayout>> = ({children,title,className, ...re
             }}>
     
                 {title && (
-                    <Text className="text-black text-2xl font-bold px-6 py-2 bg-white shadow-2xl rounded-b-xl">
+                    <Text className="text-white text-3xl mb-4 font-bold px-6 py-2 bg-blue shadow-2xl rounded-b-xl">
                         {title}
                     </Text>
                 )}
